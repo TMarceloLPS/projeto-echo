@@ -86,9 +86,9 @@ O fluxo de dados opera em janelas deslizantes de $\Delta t = 500\text{ ms}$ com 
 3. **Quantização Vetorial (*Codebook* de Tokens Neurais):**
    * A matriz $\mathbf{X}$ normalizada é projetada em um espaço latente previamente clusterizado, convertendo o sinal contínuo em um identificador discreto $T_k \in \{T_1, T_2, \dots, T_N\}$:
 
-$$
+$
 \text{Token\_ID}_t = \arg\min_{k} \|\mathbf{z}_t - \mathbf{c}_k\|_2
-$$
+$
 
 4. **Decodificação Contextual:**
    * A sequência de tokens $[T_{k-2}, T_{k-1}, T_k]$ alimenta um modelo de linguagem leve local, que resolve ambiguidades pelo contexto gramatical e reconstrói palavras e frases sem necessidade de teclado virtual.
