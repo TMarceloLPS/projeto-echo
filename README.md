@@ -2,7 +2,7 @@
 
 **Eletrofisiologia Cognitiva e Híbrida Operacional** *(Electrophysiological Cognitive & Hybrid Output)*
 
-Interface Cérebro-Computador (BCI) vestível de baixo custo embarcada em chassi acústico (headphone), baseada exclusivamente em captação cortical via Eletroencefalografia ($\text{EEG}$) e tokenização neural adaptativa para comunicação silenciosa sob interferência auditiva.
+Interface Cérebro-Computador (BCI) vestível de baixo custo embarcada em chassi acústico (headphone), baseada em captação cortical via Eletroencefalografia ($\text{EEG}$) e tokenização neural adaptativa para comunicação silenciosa sob interferência auditiva.
 
 ---
 
@@ -11,7 +11,7 @@ Interface Cérebro-Computador (BCI) vestível de baixo custo embarcada em chassi
 O **Projeto ECHO** investiga a viabilidade de decodificação de fala imaginada (*Imagined Speech*) e comandos motores mentais fora de ambientes laboratoriais isolados. O sistema integra sensores secos em um headphone modificado com haste occipital, utilizando processamento digital de sinais (DSP) em tempo real, auto-calibração contínua por estado cognitivo e quantização vetorial (*codebook* de tokens neurais) acoplada a um decodificador de linguagem contextual.
 
 ### Principais Diferenciais
-* **Arquitetura 100% Cortical:** Dispensa ativação muscular periférica (sEMG), operando pela fusão de Fala Imaginada ($F_7/T_7$), Imaginação Motora ($C_3/C_z/C_4$) e Modulação Occipital ($O_1/O_z/O_2$).
+* **Arquitetura Cortical:** Dispensa ativação muscular periférica (sEMG), operando pela fusão de Fala Imaginada ($F_7/T_7$), Imaginação Motora ($C_3/C_z/C_4$) e Modulação Occipital ($O_1/O_z/O_2$).
 * **Auto-Calibração Contínua:** Normalização Z-Score dinâmica associada à detecção de Potenciais Relacionados ao Erro ($\text{ErrP}$) para atualizar centroides sem necessidade de retreino completo.
 * **Protocolo de Interferência Auditiva:** Avaliação quantitativa da degradação espectral ($\text{SNR}_{\text{dB}}$), taxa de erro ($\text{CER}$) e velocidade ($\text{ITR}$) sob silêncio, música instrumental, música vocal e fonia operacional.
 
